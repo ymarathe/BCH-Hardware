@@ -26,8 +26,8 @@ assign vect10 = {vect4[6:0],a[5],a[6],a[7],a[8],a[9],a[10]};
 assign vect11 = {vect4[5:0],a[5],a[6],a[7],a[8],a[9],a[10],a[11]};
 assign vect12 = {vect4[4:0],a[5],a[6],a[7],a[8],a[9],a[10],a[11],a[12]};
 
-//Pass the results to a logic function and_add which computes the bitwise AND of vect(i) with c(i) and then adds them upp
-//modulo 2
+//Pass the results to a logic function and_add which computes the bitwise AND of vect(i) with b, adds them up
+//modulo 2 and outputs a single bit of the product c[i]
 and_add u0(vect0,b,c[0]);
 and_add u1(vect1,b,c[1]);
 and_add u2(vect2,b,c[2]);
