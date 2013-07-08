@@ -2,6 +2,5 @@ BCH-Hardware
 ============
 
 Contributors: Suhas Rohit Pai, Yashwant Marathe.
-This repository contains the code for Strength reduced Parallel Chein Search block implemented in Verilog.
-The block is tailored to  find roots to a polynomial in GF(2^13).
-It has a parallel factor of 32.
+This repository contains Implementations of a (4187, 4096) BCH Encoder Decoder pair in Verilog.
+Currently, it contains the code for Strength Reduced Parallel Chein Search block to find roots of polynomials in GF(2^13) with a parallel factor of 32.
