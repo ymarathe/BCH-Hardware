@@ -1,3 +1,7 @@
+/* 
+Implementation of a Galois Field Multiplier in GF(2^13), using Polynomial Basis representation of the field elements.
+Takes in two field elements a and b in PB representation, and outputs an element c in PB representation.
+/*
 module pb_mult_new(a,b,c);
 input [12:0] a,b; //Inputs
 output [12:0] c; //Output
